@@ -34,7 +34,7 @@
 					<ul class="icons">
 						<li><a href="https://www.facebook.com/Bijgaardepark" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 						<li><a href="https://www.instagram.com/de_bijgaard/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" id="secure-mail" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#105;&#106;&#103;&#97;&#97;&#114;&#100;&#46;&#109;&#111;&#101;&#115;&#116;&#117;&#105;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;" class="icon solid fa-envelope"><span class="label">&#98;&#105;&#106;&#103;&#97;&#97;&#114;&#100;&#46;&#109;&#111;&#101;&#115;&#116;&#117;&#105;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</span></a></li>
 					</ul>
 				</footer>
 			</section>
@@ -159,7 +159,9 @@
 							<section id="contact">
 								<div class="container">
 									<h3>Contacteer ons</h3>
-									<p>Zit je met vragen over het lidmaatschap? Bruis je van de ideeën voor een leuke activiteit? Of wil je gewoon iets anders delen? Laat het ons weten via een mailtje naar <a href="#" id="secure-mail">[Laden...]</a>.</p>
+									<p>Zit je met vragen over het lidmaatschap? Bruis je van de ideeën voor een leuke activiteit? 
+										Of wil je gewoon iets anders delen? Laat het ons weten via een mailtje naar 
+										<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#105;&#106;&#103;&#97;&#97;&#114;&#100;&#46;&#109;&#111;&#101;&#115;&#116;&#117;&#105;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#98;&#105;&#106;&#103;&#97;&#97;&#114;&#100;&#46;&#109;&#111;&#101;&#115;&#116;&#117;&#105;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>.</p>
 									<!--
 									<form id="contactForm" method="post" action="assets/php/sendmail.php" target="thankyouFrame">
 										<div class="row gtr-uniform">
@@ -248,18 +250,5 @@
 
 		let timer = setInterval(updateCountdown, 1000);
 		</script> -->
-
-		<script>
-			document.addEventListener("DOMContentLoaded", function() {
-				// Het e-mailadres wordt hier in stukjes gehakt
-				var user = "bijgaard.moestuin";
-				var domain = "gmail.com";
-				var mailLink = document.getElementById("secure-mail");
-				
-				// Plak de stukjes aan elkaar voor de link en de tekst
-				mailLink.href = "mailto:" + user + "@" + domain;
-				mailLink.textContent = user + "@" + domain;
-			});
-		</script>
 	</body>
 </html>
